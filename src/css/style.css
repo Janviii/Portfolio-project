@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.user {
+    padding: 1 100px 1 100px;
+}
+
+header {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 21px 1;
+}
+
+.navigation.bar {
+    background-color: black;
+}
+
+nav ul, .personal-data, .project-list {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+header h1, header a, .name p, .resume h1, .skills h1, .project h1, .contact h1 {
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14.4px;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+.personal-data {
+    height: calc(100vh - 81.6px);
+}
+ 
+.name {
+    margin-top: 122px;
+}
+
+.name h1 {
+    color: whitesmoke;
+    font-size: 48px;
+    cursor: context-menu;
+}
+
+.name h1:hover {
+    color: #48cfad;
+    transition: all .5s;
+}
+
+.name h1 {
+    color: #ed5565;
+    font-size: 50px;
+}
+
+.name p {
+    letter-spacing: 4px;
+    word-spacing: 11px;
+    font-size: 12.8px;
+}
+
+.image img {
+    width: 450px;
+    margin-top: 50px;
+}
+
+.resume {
+    margin-top: 100px;
+    height: 100vh;
+}
+
+.resume h1, .project h1 {
+    font-size: 160px;
+    z-index: 0;
+    opacity: .1;
+}
+
+.about-me {
+    max-width: 900px;
+    background-color: #272829;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .27);
+    padding: 52px;
+    position: relative;
+    top: -30px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.about-me p {
+    font-size: 21px;
+    color: #bebebe;
+}
+
+.about-me p {
+    margin-top: 32px;
+}
+
+.skills {
+    height: 100vh;
+}
+
+.skills h1, .contact h1 {
+    text-align: right;
+    font-size: 160px;
+    opacity: .1;
+}
+
+.skills-data {
+    font-size: 22.5px;
+    color: #bebebe;
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    margin-bottom: 52px;
+    transform: translateX(-50%);
+}
+
+.project-list button {
+    padding: 16px 32px;
+    border: 2.5px solid #ed5565;
+    border-radius: 52px;
+    color: #ed5565;
+    font-size: 17.5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: #252629;
+    outline: none;
+    cursor: pointer;
+}
+
+.animation-project-list, .designing-project-list {
+    margin-top: 50px;
+    margin-left: 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 500px));
+    grid-gap: 50px;
+} 
+
+.project a {
+    justify-self: center;
+    position: relative;
+    display: inline-block;
+}
+
+.project-list .active {
+    background-color: #ed5565;
+}
+
+button.active {
+    color: whitesmoke;
+}
+
+.project a img {
+    width: 500px;
+    height: 500px;
+    justify-self: center;
+}
+
+.contact {
+    margin-top: 52px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 500px;
+    padding: 20px;
+    background-color: #272829;
+    border: 3px solid #707070;
+    margin: 20px 0;
+    outline: none;
+    font-size: 19px;
+    color: whitesmoke;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+form input:last-child {
+    width: 160px;
+    background-color: #ed5565;
+    border: 0.1px;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    color: whitesmoke;
+    padding: 32px 0;
+}
+
+
+
+
+
+
+
+
+
