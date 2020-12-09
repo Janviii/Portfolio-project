@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css\style.css">
-    <script src="js\script.js"></script>
+    <link rel="stylesheet" href="src\css\style.css">
+    
 </head>
 <body>
 
-    <div class="navigation-Bar">
+    <div class="user navigation-Bar">
         <header>
             <div class="logo">
                 <h1>Janvi</h1>
@@ -17,16 +17,16 @@
 
             <nav>
                 <ul>
-                    <li><a href="resume">RESUME</a></li>
-                    <li><a href="skills">SKILLS</a></li>
-                    <li><a href="project">PROJECT</a></li>
-                    <li><a href="contact">CONTACT</a></li>
+                    <li><a href="#resume">RESUME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div class="personal-data">
+    <div class="user personal-data">
         <div class="image">
             <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1578065667/content-items/003/570/263/Captura_de_pantalla_2019-04-26_a_las_13.17.25-original-original.jpg?1578065667">
         </div>
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div class="resume-user">
+    <div class="user resume" id="resume">
         <h1>RESUME</h1>
         <h3>JANVI PATEL-Software Developer Student</h3>
         <div class="about-me">
@@ -51,14 +51,14 @@
         </div>
     </div>
 
-    <div class="user-skills">
+    <div class="user skills" id="skills">
         <h1>SKILLS</h1>
         <p class="skills-data">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
         </p>
     </div>
 
-    <div class="user-projects">
+    <div class="user project" id="project">
         <h1>PROJECT</h1>
         <div class="project-list">
             <button id="animation">Animation</button>
@@ -83,19 +83,22 @@
         </div>
     </div>
     
-    <div class="user-contact">
+    <div class="user contact" id="contact">
         <h1>CONTACT</h1>
         <form>
             <input type="text" placeholder="First Name">
             <input type="text" placeholder="Last Name">
             <input type="email" placeholder="abc123@example.com">
             <textarea name="Message" cols="31" row="12" placeholder="Message"></textarea>
+            <input type="submit">
         </form>
     </div>
 
     <footer>
         <p>Copyright © 2020. All Rights Reserved</p>
     </footer>
+
+    <script src="src\js\script.jssrc\js\script.js"></script>
 
 </body>
 </html>
