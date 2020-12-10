@@ -4,10 +4,12 @@ const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 const imagemin = require('gulp-imagemin');
+const concat = require('gulp-concat');
 
 //html Task
 function htmlTask() {
     return src('src/*.html')
+    .pipe(concat('all.html'))
     .pipe(dest('dist'))
 }
 
@@ -17,12 +19,14 @@ function stylesTask() {
     .pipe(sourcemaps.init())
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(sourcemaps.write())
+    .pipe(concat('all.css'))
     .pipe(dest('dist/css'))
 }
 
 //js Task
 function scriptsTask() {
     return src('src/scripts/*.js')
+    .pipe(concat('all.js'))
     .pipe(dest('dist/js'))
 }
 
