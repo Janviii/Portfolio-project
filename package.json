@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janviii/Portfolio-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Janviii/Portfolio-project/issues"
+  },
+  "homepage": "https://github.com/Janviii/Portfolio-project#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
