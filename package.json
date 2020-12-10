@@ -18,6 +18,12 @@
   "keywords": [],
   "description": "",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.2.1"
   }
 }
